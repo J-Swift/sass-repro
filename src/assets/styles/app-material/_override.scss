@@ -1,0 +1,20 @@
+.mat-form-field-underline {
+    transform: perspective(1px);
+}
+
+mat-sidenav-container .mat-drawer-backdrop.mat-drawer-shown {
+    background: rgba(0, 0, 0, .5)
+}
+
+.mat-autocomplete-panel {
+    min-width: 25rem !important;
+}
+
+mat-form-field.has-loader {
+    mat-progress-bar {
+        position: absolute;
+        bottom: -1px;
+        height: 2px;
+        z-index: 1;
+    }
+}

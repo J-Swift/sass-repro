@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'app-bootstrap';
+div {
+  width: 200px;
+  height: 200px;
+  @include media-breakpoint-up(md) {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.warning {
+  background-color: $warning;
+}
+
+.danger {
+  background-color: $danger;
+}
+
+.success {
+  background-color: $success;
+}

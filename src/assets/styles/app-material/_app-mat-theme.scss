@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+@import './app-mat-variables';
+
+@include mat-core();
+$app-primary: mat-palette($mat-blue);
+$app-accent: mat-palette($mat-accent);
+$app-warn: mat-palette($mat-orange);
+$app-theme: mat-dark-theme($app-primary, $app-accent, $app-warn);
+@include angular-material-theme($app-theme);
+
+.mat-form-field-label .mat-input-placeholder .mat-form-field-placeholder {}
